@@ -11,7 +11,7 @@
     src: url("./Fuentes/Rochester-Regular.ttf");
 }
 
- .cuadro{
+.cuadro{
     color: #e4c696;
     position: relative;
     text-align: center;
@@ -88,6 +88,7 @@ nav{
 
 nav a{
     text-decoration: none;
+    color: #371761;
 }
 
 
@@ -102,7 +103,7 @@ nav a{
 .titulo{
     font-family: Rochester; 
     
-    position: relative;
+    position: absolute;
     top: -150px;
     left: 400px;
     font-size: 70px; 
@@ -113,10 +114,12 @@ nav a{
 }
 
 .subtitulo{
+    position: absolute;
+    
     font-family: Rochester; 
     font-size: 32px;
-    position: relative;
-    top: -150px;
+    
+    top: -60px;
     left: 420px; 
     -webkit-text-fill-color:  #ac47bb;
     -webkit-text-stroke-color: #4a1e85;
@@ -142,4 +145,10 @@ div .subtitulosOtros{
     -webkit-text-stroke-color: #59224eb2;
     -webkit-text-stroke-width: 0.2px;
     opacity: 80%;
+}
+
+.titulos{
+    width: auto;
+    height: auto;
+    position: relative;
 }
