@@ -1,0 +1,65 @@
+/* Style for the page container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Style for the heading */
+h1 {
+  text-align: center;
+}
+
+/* Style for the form */
+#imageForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the form inputs */
+#imageURL {
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the image container */
+#imageContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the audio player */
+#audioPlayer {
+  display: none;
+}
+
+/* Style for the error message */
+#errorMsg {
+  color: red;
+}
+
+/* Style for the image displayed */
+img {
+  max-width: 100%;
+  max-height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+#descriptionContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
